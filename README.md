@@ -10,6 +10,8 @@ O objetivo desta API é permitir que lojistas e revendedores automatizem o envio
 
 
 
+Documentação completa em https://chavenachave.com.br/doc-api/
+
 \---
 
 
@@ -62,21 +64,17 @@ O objetivo desta API é permitir que lojistas e revendedores automatizem o envio
 
 $dados = \[
 
- "codigo\_referencia" => "SEU\_ID\_REFERENCIA\_DO\_VEICULO",
+&#x20;   "codigo\_referencia" => "SEU\_ID\_REFERENCIA\_DO\_VEICULO",
 
- "marca" => "VW - Volkswagen",
+&#x20;   "marca" => "VW - Volkswagen",
 
- "modelo" => "Golf GTI",
+&#x20;   "modelo" => "Golf GTI",
 
- "valor" => "285000.00",
+&#x20;   "valor" => "285000.00",
 
- "fotos" => \["\[https://link-da-sua-foto.jpg](https://link-da-sua-foto.jpg)"]
+&#x20;   "fotos" => \["\[https://link-da-sua-foto.jpg](https://link-da-sua-foto.jpg)"]
 
 ];
 
 // Veja o arquivo completo em /examples/teste-api.php
-
-
-
-Documentação completa em https://chavenachave.com.br/doc-api/
 
