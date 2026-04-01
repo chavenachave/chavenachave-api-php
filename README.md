@@ -54,7 +54,7 @@ Documentação completa em https://chavenachave.com.br/doc-api/
 
 2.  Configurar o Exemplo: Abra o arquivo `teste-api.php` e insira o seu token na variável `$token`.
 
-3.  Executar Testes: Alterne a variável `$acao\_teste` para validar cada endpoint da API.
+3.  Executar Testes: Alterne a variável `$acao_teste` para validar cada endpoint da API.
 
 
 
