@@ -8,7 +8,7 @@ $url   = "https://chavenachave.com.br/api/veiculos.php";
 $token = "SEU TOKEN"; // Gere seu token em https://chavenachave.com.br/token-api/
 
 // Defina a ação que deseja testar: 'POST', 'GET' ou 'DELETE'
-$acao_teste = 'GET'; 
+$acao_teste = 'POST'; 
 
 $dados = [];
 $metodo = "POST";
