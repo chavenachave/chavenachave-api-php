@@ -1,7 +1,7 @@
 <?php
 /**
  * EXEMPLO DE INTEGRAÇÃO API - CHAVENACHAVE v1.2
- * Este script demonstra como Enviar, Listar e Deletar veículos.
+ * Este script demonstra como  Enviar, Listar e Deletar veículos.
  */
 
 $url   = "https://chavenachave.com.br/api/veiculos.php"; 
