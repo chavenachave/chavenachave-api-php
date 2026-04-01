@@ -62,19 +62,32 @@ Documentação completa em https://chavenachave.com.br/doc-api/
 
 ```php
 
-$dados = [
+{
+  "codigo_referencia": "SEU_ID_REFERENCIA_DO_VEICULO",
+  "codigoTipoVeiculo": "1",
+  "tipo": "Carro",
+  "marca": "GM - Chevrolet",
+  "modelo": "TRACKER RS 1.2 Turbo 12V Flex Aut.",
+  "anoFabricacao": 2024,
+  "anoModelo": 2024,
+  "zerokm": "N",
+  "km": "20000",
+  "valor": "100000.00",
+  "cor": "Vermelho",
+  "combustivel": "Flex",
+  "cambio": "Automático",
+  "direcao": "Hidráulica",
+  "portas": "5",
+  "placa": "ABC-1234",
+  "finalPlaca": "4",
+  "unicoDono": "Sim",
+  "descricao": "Único dono, todas as revisões na concessionária."
 
- "codigo_referencia" => "SEU_ID_REFERENCIA_DO_VEICULO",
-
- "marca" => "VW - Volkswagen",
-
- "modelo" => "Golf GTI",
-
- "valor" => "285000.00",
-
- "fotos" => ["[https://link-da-sua-foto.jpg](https://link-da-sua-foto.jpg)"]
-
-];
-
+  },
+  "fotos": [
+	"https://img.integrador.com.br/foto1.jpg",
+	"https://img.integrador.com.br/foto2.jpg"
+  ]
+}
 // Veja o arquivo completo em /examples/teste-api.php
 
