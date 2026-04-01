@@ -62,7 +62,7 @@ Documentação completa em https://chavenachave.com.br/doc-api/
 
 ```php
 
-$dados = \[
+$dados = [
 
  "codigo_referencia" => "SEU_ID_REFERENCIA_DO_VEICULO",
 
